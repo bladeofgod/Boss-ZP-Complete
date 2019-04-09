@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_page"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        style="@style/match_match"
+        android:layout_weight="1"/>
+
+    <View
+        style="@style/divider_horizontal_1dp_gray"/>
+
+    <LinearLayout
+        style="@style/ll_horizontal_match_wrap"
+        android:layout_height="50dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:id="@+id/llBottomTabTab0"
+            style="@style/bottom_tab_ll"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/ivBottomTabTab0"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/selector_job" />
+
+            <TextView
+                android:id="@+id/tvBottomTabTab0"
+                style="@style/bottom_tab_tv"
+                android:text="工作" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottomTabTab1"
+            style="@style/bottom_tab_ll"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ivBottomTabTab1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/selector_company" />
+
+            <TextView
+                android:id="@+id/tvBottomTabTab1"
+                style="@style/bottom_tab_tv"
+                android:text="公司" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottomTabTab2"
+            style="@style/bottom_tab_ll"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ivBottomTabTab2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/selector_msg" />
+
+            <TextView
+                android:id="@+id/tvBottomTabTab2"
+                style="@style/bottom_tab_tv"
+                android:text="消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottomTabTab3"
+            style="@style/bottom_tab_ll"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ivBottomTabTab3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/selector_user" />
+
+            <TextView
+                android:id="@+id/tvBottomTabTab3"
+                style="@style/bottom_tab_tv"
+                android:text="我的" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

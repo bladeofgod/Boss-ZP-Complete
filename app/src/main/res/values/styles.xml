@@ -1,0 +1,192 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+
+        <!-- 闪屏背景，可用图片 -->
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="bottom_tab_ll" parent="ll_vertical_match_match">
+        <item name="android:width">0dp</item>
+    </style>
+
+    <style name="bottom_tab_iv" parent="img_btn"></style>
+
+    <style name="bottom_tab_tv" parent="text_micro">
+        <item name="android:textColor">@color/black_to_white</item>
+    </style>
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+
+    <!--scroll view-->
+    <style name="CustomLabelBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/stroke_black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">@dimen/six</item>
+        <item name="android:paddingEnd" tools:targetApi="jelly_bean_mr1">@dimen/six</item>
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CustomLabelBlueBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">@dimen/four</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:paddingEnd" tools:targetApi="jelly_bean_mr1">@dimen/four</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomLabelBlueGenderStroke">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:background">@drawable/stroke_blue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/five</item>
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">@dimen/six</item>
+        <item name="android:paddingEnd" tools:targetApi="jelly_bean_mr1">@dimen/six</item>
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+
+    <style name="LineOneVertical">
+        <item name="android:layout_width">@dimen/one</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="LineEight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_height">@dimen/eight</item>
+    </style>
+
+    <style name="LineOnePointFive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_height">@dimen/one_point_five</item>
+    </style>
+
+    <style name="UserCenterIntegralTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/nine</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="UserCenterIntegralNumTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">@dimen/sixteen</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+    <!--User center label-->
+    <style name="UserCenterLabel">
+        <item name="android:background">@drawable/shape_gray_3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/four</item>
+        <item name="android:paddingTop">@dimen/four</item>
+        <item name="android:paddingStart" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:paddingEnd" tools:targetApi="jelly_bean_mr1">@dimen/eight</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="UserTitleAvatar">
+        <item name="android:layout_width">@dimen/thirty_two</item>
+        <item name="android:layout_height">@dimen/thirty_two</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/five</item>
+    </style>
+    <style name="QuestionTitleTextView">
+        <item name="android:layout_marginTop">@dimen/nineteen</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/forty_eight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lineSpacingExtra">@dimen/eight</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/font_17</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="QuestionAnswerTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="QuestionDescriptionTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:lineSpacingExtra">@dimen/ten</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/twenty_one</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="AnswerSingleTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="AnswerTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/nine</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:padding">@dimen/two</item>
+        <item name="android:text">@string/answer</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AnswerNoneTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_1</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:text">@string/no_answer_get_first_answer</item>
+    </style>
+
+</resources>

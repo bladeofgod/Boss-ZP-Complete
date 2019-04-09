@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomLabelBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/stroke_black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/six</item>
+        <item name="android:paddingEnd">@dimen/six</item>
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

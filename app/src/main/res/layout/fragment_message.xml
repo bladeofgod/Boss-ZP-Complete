@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity_page" >
+
+    <RelativeLayout style="@style/topbar_bg" >
+
+
+        <LinearLayout
+            android:id="@id/llBaseTabTabContainer"
+            style="@style/ll_vertical_wrap_match"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDemoTabRight"
+            style="@style/topbar_right_btn"
+            android:text="+" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@id/flBaseTabFragmentContainer"
+        style="@style/match_match"
+        android:background="@color/activity_bg" >
+    </FrameLayout>
+
+</LinearLayout>

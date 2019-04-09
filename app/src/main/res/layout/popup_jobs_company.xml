@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="融资阶段"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/tag_fl_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="人员规模"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/tag_fl_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="行业"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/tag_fl_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Reset"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/divider_vertical_1dp_gray"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/black"
+            android:text="Confirm"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

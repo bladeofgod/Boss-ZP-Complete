@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/place_fg_container"
+        android:name="com.bedrock.bosszp.fragment.PlaceSelectorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Reset"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <View
+            style="@style/divider_vertical_1dp_gray"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/black"
+            android:text="Confirm"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_shift_place"
+        android:text="切换城市"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
