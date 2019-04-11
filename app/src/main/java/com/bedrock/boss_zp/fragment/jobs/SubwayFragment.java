@@ -70,7 +70,7 @@ public class SubwayFragment extends BaseFragment {
 
         viewPager = findView(R.id.business_view_pager);
         adapter = new JobsPlaceFragmentAdapter(
-                getChildFragmentManager(), context,titles.toArray(new String[15]) );
+               getChildFragmentManager(), context,titles.toArray(new String[15]) );
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 

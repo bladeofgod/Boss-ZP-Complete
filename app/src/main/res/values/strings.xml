@@ -16,4 +16,36 @@
     <string name="answer">答</string>
     <string name="no_more">没有更多了</string>
     <string name="more_loading">更多加载中...</string>
+
+    <string name="test_content">2019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 12019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 12019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 12019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 12019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 12019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:55.888 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
+2019-04-10 18:20:56.160 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
+2019-04-10 18:20:56.545 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1</string>
 </resources>

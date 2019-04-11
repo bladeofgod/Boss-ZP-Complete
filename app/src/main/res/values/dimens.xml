@@ -16,6 +16,7 @@
     <dimen name="font_36">36sp</dimen>
     <!--basic spacing size-->
 
+
     <!---->
     <dimen name="zero">0dp</dimen>
     <dimen name="one_point_five">0.5dp</dimen>
@@ -49,4 +50,6 @@
     <dimen name="forty_two">42dp</dimen>
     <dimen name="seventeen">17dp</dimen>
     <dimen name="twenty_one">21dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="one_hundred">100dp</dimen>
 </resources>

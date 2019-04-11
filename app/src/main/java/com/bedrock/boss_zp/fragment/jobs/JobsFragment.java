@@ -1,7 +1,10 @@
 package com.bedrock.boss_zp.fragment.jobs;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,7 +49,12 @@ public class JobsFragment extends BaseHttpRecyclerFragment<JobBean, BaseViewHold
 
      }
 
-     List<Integer> images;
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    List<Integer> images;
 
      @Override
      public void initView() {
@@ -153,7 +161,7 @@ public class JobsFragment extends BaseHttpRecyclerFragment<JobBean, BaseViewHold
                 break;
             case R.id.tv_place:
                 XPopup.get(context)
-                        .asCustom(new PlacePopupView(context,getFragmentManager()))
+                        .asCustom(PlacePopupView.getSingleton(context,context.getSupportFragmentManager()))
                         .atView(findView(R.id.tv_place))
                         .show();
                 break;

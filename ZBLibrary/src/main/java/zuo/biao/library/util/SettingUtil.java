@@ -30,7 +30,7 @@ public final class SettingUtil {
 	public static final boolean isReleased = false;//应用已发布
 
 	/**建议改成你自己项目的路径*/
-	public static final String APP_SETTING = "SHARE_PREFS_" + "APP_SETTING";
+	public static final String APP_SETTING = "SHARE_PREFS_" + "BossZP";
 
 	private SettingUtil() {/*不能实例化**/}
 

@@ -17,7 +17,16 @@ public class PlacePopupView extends PartShadowPopupView {
     WeakReference<Context> reference;
     SoftReference<FragmentManager> managerSoftReference;
 
-    public PlacePopupView(@NonNull Context context, FragmentManager fragmentManager) {
+    private static PlacePopupView singleton;
+
+    public static PlacePopupView getSingleton(@NonNull Context context, FragmentManager fragmentManager){
+        if (singleton == null){
+            singleton = new PlacePopupView(context, fragmentManager);
+        }
+        return singleton;
+    }
+
+    private PlacePopupView(@NonNull Context context, FragmentManager fragmentManager) {
         super(context);
         reference = new WeakReference<>(context);
         managerSoftReference = new SoftReference<>(fragmentManager);
@@ -37,6 +46,7 @@ public class PlacePopupView extends PartShadowPopupView {
         ft.show(PlaceSelectorFragment.getInstance());
         ft.commit();
     }
+
 }
 
 
