@@ -160,6 +160,7 @@ public class JobsFragment extends BaseHttpRecyclerFragment<JobBean, BaseViewHold
                         .show();
                 break;
             case R.id.tv_place:
+
                 XPopup.get(context)
                         .asCustom(PlacePopupView.getSingleton(context,context.getSupportFragmentManager()))
                         .atView(findView(R.id.tv_place))

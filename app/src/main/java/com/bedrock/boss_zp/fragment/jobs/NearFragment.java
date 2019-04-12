@@ -12,21 +12,44 @@ import zuo.biao.library.base.BaseFragment;
 
 public class NearFragment extends BaseFragment {
 
+    private static NearFragment instance;
     public static NearFragment getInstance(){
-        return new NearFragment();
+        if (instance == null){
+            instance = new NearFragment();
+        }
+        return instance;
     }
+
+    private View originView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        setContentView(R.layout.fragment_jobs_place_near);
 
-        initView();
-        initData();
-        initEvent();
+        if (originView != null){
+            ViewGroup viewGroup = (ViewGroup)originView.getParent();
+            if (viewGroup != null){
+                viewGroup.removeView(originView);
+            }
+            initView();
+            initData();
+            initEvent();
 
-        return view;
+            return originView;
+        }else {
+            setContentView(R.layout.fragment_jobs_place_near);
+            originView = view;
+            initView();
+            initData();
+            initEvent();
+
+
+            return view;
+
+        }
+
+
 
     }
 

@@ -22,23 +22,41 @@ import zuo.biao.library.base.BaseFragment;
 
 public class SubwayFragment extends BaseFragment {
 
-
+    private static SubwayFragment instance;
     public static SubwayFragment getInstance(){
-        return new SubwayFragment();
+        if (instance == null){
+            instance = new SubwayFragment();
+        }
+        return instance;
     }
+
+    private View originView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
 
-        setContentView(R.layout.fragment_jobs_place_sub);
+        if (originView != null){
+            ViewGroup viewGroup = (ViewGroup)originView.getParent();
+            if (viewGroup != null){
+                viewGroup.removeView(originView);
+            }
+            initView();
+            initData();
+            initEvent();
 
-        initView();
-        initData();
-        initEvent();
+            return originView;
+        }else {
+            setContentView(R.layout.fragment_jobs_place_sub);
+            originView = view;
+            initView();
+            initData();
+            initEvent();
 
-        return view;
+            return view;
+
+        }
     }
 
     private List<String> titles;

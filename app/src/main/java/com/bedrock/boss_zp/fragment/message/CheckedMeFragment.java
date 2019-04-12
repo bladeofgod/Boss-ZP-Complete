@@ -28,17 +28,35 @@ public class CheckedMeFragment extends BaseHttpRecyclerFragment<JobBean, BaseVie
         return new CheckedMeFragment();
     }
 
+    private View originView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        setContentView(R.layout.fragment_msg_reac_checked);
 
-        initView();
-        initData();
-        initEvent();
 
-        onRefresh();
-        return view;
+        if (originView != null){
+            ViewGroup viewGroup = (ViewGroup)originView.getParent();
+            if (viewGroup != null){
+                viewGroup.removeView(originView);
+            }
+            initView();
+            initData();
+            initEvent();
+            onRefresh();
+            return originView;
+        }else {
+            setContentView(R.layout.fragment_msg_reac_checked);
+            originView = view;
+            initView();
+            initData();
+            initEvent();
+            onRefresh();
+
+            return view;
+
+        }
+
     }
 
     @Override

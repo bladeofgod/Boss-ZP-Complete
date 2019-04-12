@@ -22,8 +22,13 @@ import zuo.biao.library.util.TimeUtil;
 
 public class ChatFragment extends BaseHttpRecyclerFragment<ContactsBean, BaseViewHolder, MsgContactsAdapter> {
 
+    private static ChatFragment instance;
+
     public static ChatFragment getInstance(){
-        return new ChatFragment();
+        if (instance == null){
+            instance = new ChatFragment();
+        }
+        return instance;
     }
 
     @Override
