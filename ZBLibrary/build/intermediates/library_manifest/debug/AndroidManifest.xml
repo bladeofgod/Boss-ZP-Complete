@@ -3,7 +3,7 @@
     package="zuo.biao.library"
     android:versionCode="1"
     android:versionName="1.0" > <!-- 复制粘贴到你的工程的AndroidManifest.xml内对应位置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <uses-sdk android:minSdkVersion="15" />
+    <uses-sdk android:minSdkVersion="16" />
 
     <!-- 复制粘贴到你的工程的AndroidManifest.xml内对应位置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- CommonUtil等类的部分功能需要，不需要的功能对应的权限可不复制粘贴 <<<<<< -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />

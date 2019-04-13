@@ -17,6 +17,12 @@
     <string name="no_more">没有更多了</string>
     <string name="more_loading">更多加载中...</string>
 
+    <string name="job_detail">主要包括工作名称、工作职责、任职条件、工作所要求的技能，工作对个性的要求也可以写在工作说明书中。
+从大方面来分，包含：岗位职责和任职要求。
+岗位职责：反映的是一个岗位所要求的需要去完成的工作内容以及应当承担的责任范围。
+任职要求：指的是是完成该职位工作内容所要求的最低任职资格及在此基础上能够具备的理想条件。它由两部分组成：行为能力与素质要求。行为能力包括知识、技能和经验等；素质要求则是指任职人员的个性、兴趣偏好、价值观、人生观等。
+工作说明书描述的对象是工作本身，而与从事这项工作的人无关。</string>
+
     <string name="test_content">2019-04-10 18:20:54.483 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0
 2019-04-10 18:20:54.738 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 1
 2019-04-10 18:20:55.398 30162-30162/com.bedrock.boss_zp D/ViewRootImpl@cceac3f[MainActivity]: ViewPostImeInputStage processPointer 0

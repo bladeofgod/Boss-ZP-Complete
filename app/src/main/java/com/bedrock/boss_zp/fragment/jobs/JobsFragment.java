@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bedrock.boss_zp.R;
+import com.bedrock.boss_zp.activity.JobDetailActivity;
 import com.bedrock.boss_zp.adapter.jobs.JobsAdapter;
 import com.bedrock.boss_zp.banner.GlideImageLoader;
 import com.bedrock.boss_zp.model.JobBean;
@@ -111,6 +112,7 @@ public class JobsFragment extends BaseHttpRecyclerFragment<JobBean, BaseViewHold
              @Override
              public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
                  showShortToast("you click item  " + position);
+                 startActivity(JobDetailActivity.createIntent(context));
              }
          });
 

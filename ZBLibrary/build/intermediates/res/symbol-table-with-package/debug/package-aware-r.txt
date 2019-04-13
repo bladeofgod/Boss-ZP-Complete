@@ -244,6 +244,23 @@ attr elevation
 attr emptyVisibility
 attr enforceMaterialTheme
 attr enforceTextAppearance
+attr ep_contract_color
+attr ep_contract_text
+attr ep_end_color
+attr ep_expand_color
+attr ep_expand_text
+attr ep_link_color
+attr ep_link_res
+attr ep_max_line
+attr ep_mention_color
+attr ep_need_always_showright
+attr ep_need_animation
+attr ep_need_contract
+attr ep_need_expand
+attr ep_need_link
+attr ep_need_mention
+attr ep_need_self
+attr ep_self_color
 attr errorEnabled
 attr errorTextAppearance
 attr expandActivityOverflowButtonDrawable
@@ -1809,6 +1826,7 @@ layout top_right_tv
 layout top_tab_tv_center
 layout top_tab_view
 layout web_view_activity
+mipmap link
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format
@@ -1912,6 +1930,9 @@ string send_failed
 string send_succeed
 string sending
 string share_app
+string social_contract
+string social_expend
+string social_text_target
 string status_bar_notification_info_overflow
 string update
 style ActivityDialog
@@ -2644,6 +2665,7 @@ styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable DesignTheme bottomSheetDialogTheme bottomSheetStyle
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
+styleable ExpandableTextView ep_contract_color ep_contract_text ep_end_color ep_expand_color ep_expand_text ep_link_color ep_link_res ep_max_line ep_mention_color ep_need_always_showright ep_need_animation ep_need_contract ep_need_expand ep_need_link ep_need_mention ep_need_self ep_self_color
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing
